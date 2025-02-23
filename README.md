@@ -1,4 +1,4 @@
-# The Oops Fixed It Cloud Machine
+# The 'Oops Fixed It' Cloud Machine
 
 ## 📌 Overview
 This project automates security checks in **Google Cloud (GCP)** to detect common misconfigurations.
