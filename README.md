@@ -1,4 +1,3 @@
-
 # The 'Oops Fixed It' Cloud Machine
 
 ## 📌 Overview
@@ -31,9 +30,6 @@ Run the following commands to authenticate:
 # Log in to Google Cloud
 gcloud auth login
 
-# Set your project (replace PROJECT_ID with your project ID)
-gcloud config set project PROJECT_ID
-
 # Authenticate application default credentials (for Python scripts)
 gcloud auth application-default login
 ```
@@ -46,7 +42,7 @@ gcloud auth application-default login
     ```json
     {
         "cloud_provider": "gcp",
-        "project_id": "YOUR_PROJECT_ID",
+        "gcp_project_id": "YOUR_PROJECT_ID",
         "aws_account_id": "123456789012", 
         "azure_subscription_id": "your-azure-subscription-id",
         "log_level": "INFO", 
@@ -61,7 +57,6 @@ gcloud auth application-default login
          *  DEBUG: Detailed information, typically used for diagnosing problems.
          *  INFO: General information about the script's execution.
          *  WARNING: Indicates potential issues or unexpected events.
-         *  ERROR: Signals that an error has occurred, but the script may continue.
          *  CRITICAL: A severe error that may cause the script to terminate.
 
 ---
