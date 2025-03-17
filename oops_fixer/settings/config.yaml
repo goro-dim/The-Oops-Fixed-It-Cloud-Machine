@@ -1,0 +1,6 @@
+cloud:
+  provider: gcp
+  project_id: cloudsec-automation
+logging:
+  level: DEBUG
+  output_file: oopsie_findings.json
